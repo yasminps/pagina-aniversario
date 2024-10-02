@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surpresa de Aniversário</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #006b09;
+            margin-bottom: 20px;
+            animation: pulseText 2s infinite; /* Animação no texto */
+        }
+
+        img {
+            width: 300px;
+            height: auto;
+            border-radius: 20px;
+            animation: growShrink 5s infinite ease-in-out; /* Animação de crescer e diminuir */
+        }
+
+        /* Animação do texto */
+        @keyframes pulseText {
+            0% {
+                transform: scale(1);
+                color: #006d1b;
+            }
+            50% {
+                transform: scale(1.2);
+                color: #00491c;
+            }
+            100% {
+                transform: scale(1);
+                color: #118d06;
+            }
+        }
+
+        /* Animação da imagem */
+        @keyframes growShrink {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>vale presente! 🎉</h1>
+    <a href="https://open.spotify.com/playlist/3tR7rs5GHWnlBhyb11gCID?si=_WD8LKMXTfieE2W8_SUojQ&pi=p1qY0KFjR32Iv " target="_blank">
+        <img src="img/650666.webp" alt="Imagem de Feliz Aniversário">
+    </a>
+    
+</body>
+</html>
